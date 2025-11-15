@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 1.6 1.6"
+   aria-hidden="true"
+   role="img"
+   class="iconify iconify--emojione"
+   preserveAspectRatio="xMidYMid"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="flag-for-czechia-svgrepo-com(1).svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="29.415642"
+     inkscape:cx="4.3004331"
+     inkscape:cy="13.42823"
+     inkscape:window-width="2560"
+     inkscape:window-height="1276"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     d="M 0.2346667,0.2346667 V 0.8 H 1.6 C 1.6,0.3573333 1.2426667,0 0.8,0 0.5786667,0 0.3786667,0.0906667 0.2346667,0.2346667"
+     fill="#f9f9f9"
+     id="path1"
+     style="stroke-width:0.0266666" />
+  <path
+     d="M 0.2346667,0.8 V 1.3653333 C 0.3786667,1.5093333 0.5786667,1.6 0.8,1.6 1.2426667,1.6 1.6,1.2426667 1.6,0.8 H 0.2346667"
+     fill="#ed4c5c"
+     id="path2"
+     style="stroke-width:0.0266666" />
+  <path
+     d="M 0.2346667,0.2346667 C 0.0906667,0.3786667 0,0.5786667 0,0.8 0,1.0213333 0.0906667,1.2213333 0.2346667,1.3653333 L 0.8,0.8 Z"
+     fill="#428bc1"
+     id="path3"
+     style="stroke-width:0.0266666" />
+</svg>
