@@ -3,8 +3,10 @@
 <head>
   <meta http-equiv="refresh" content="0; url=/index.html" />
   <script type="text/javascript">
-    // Redirect to index.html for non-root URLs
-    window.location.replace("/index.html");
+    // Ensure that the browser correctly redirects to the root
+    if (window.location.pathname !== "/") {
+      window.location.replace("/");
+    }
   </script>
 </head>
 <body>
