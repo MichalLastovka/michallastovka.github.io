@@ -8,6 +8,7 @@ import ListItemText from '@mui/material/ListItemText';
 import {useTranslation} from "react-i18next";
 import {IconButton} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+import {Link} from 'react-router-dom'
 
 export default function MyDrawer() {
     const [open, setOpen] = React.useState(false);
@@ -20,7 +21,7 @@ export default function MyDrawer() {
         <Box sx={{width: 200}} role="presentation" onClick={toggleDrawer(false)}>
             <List>
                 <ListItem key={"about-drawer"} disablePadding sx={{height: 60}}>
-                    <ListItemButton>
+                    <ListItemButton component={Link} to="/about">
                         <ListItemText primary={t("about")} slotProps={{
                             primary: {
                                 sx: {fontSize: 20},  // style goes here
@@ -29,7 +30,7 @@ export default function MyDrawer() {
                     </ListItemButton>
                 </ListItem>
                 <ListItem key={"portfolio-drawer"} disablePadding sx={{height: 60}}>
-                    <ListItemButton>
+                    <ListItemButton component={Link} to="/portfolio">
                         <ListItemText primary={t("portfolio")} slotProps={{
                             primary: {
                                 sx: {fontSize: 20},  // style goes here
@@ -38,7 +39,7 @@ export default function MyDrawer() {
                     </ListItemButton>
                 </ListItem>
                 <ListItem key={"contacts-drawer"} disablePadding sx={{height: 60}}>
-                    <ListItemButton>
+                    <ListItemButton component={Link} to="/contacts">
                         <ListItemText primary={t("contacts")} slotProps={{
                             primary: {
                                 sx: {fontSize: 20},  // style goes here

@@ -6,7 +6,7 @@ import {Box} from "@mui/material";
 
 
 const Layout: React.FC = () => (
-    <Box display="flex" flexDirection="column" width={"100%"} height={"100vh"}>
+    <Box display="flex" flexDirection="column" width={"100%"} height={"100%"}>
         <TopBar/>
         <Outlet />
     </Box>

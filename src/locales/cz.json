@@ -2,5 +2,24 @@
   "test_title": "Čeština",
   "about": "O mně",
   "portfolio": "Portfolio",
-  "contacts": "Kontakty"
+  "contacts": "Kontakty",
+  "about_me": "Jsem nezávislý full-stack vývojář z České republiky zaměřený na vývoj mobilních aplikací pro zařízení s OS Android a webových aplikací v Reactu.",
+  "detail": "detail",
+  "google_play_get": "Rozjeď to na Google Play",
+  "privacy_policy": "Zásady ochany osobních údajů",
+  "privacy_policy_what_collect": "Jaká data shromažďujeme",
+  "privacy_policy_how_use": "Jak používáme vaše data",
+  "privacy_policy_store": "Ukládání a bezpečnost dat",
+  "privacy_policy_sharing": "Sdílení dat",
+  "privacy_policy_changes_title": "Změny těchto zásad ochrany osobních údajů",
+  "privacy_policy_contact_title": "Kontaktujte nás",
+
+  "respirating_description": "Mobilní aplikace pro OS Android umožňuje sledovat dechovou frekvenci a pravidelnost dechu pro různé věkové skupiny.",
+  "respirating_privacy_policy_what_collect": "Aplikace nesbírá žádná osobní data, kromě lokálních preferencí uložených na vašem zařízení.",
+  "respirating_privacy_policy_how_use": "Vaše data nevyužíváme, nesledujeme ani nesdílíme žádným způsobem, kromě toho, co je nezbytné pro funkčnost aplikace.",
+  "respirating_privacy_policy_store": "Data jsou bezpečně uložena na vašem zařízení v lokálním úložišti (např. místní úložiště nebo databáze). Tato data nejsou nikam odesílána a nemáme k nim přístup. Aplikace nepoužívá žádné externí služby pro shromažďování nebo uchovávání dat.",
+  "respirating_privacy_policy_sharing": "Nesdílíme žádná osobní data ani preference s třetími stranami. Vaše data zůstávají pouze na vašem zařízení a nejsou odesílána na naše servery nebo jakékoli externí služby.",
+
+  "privacy_policy_changes": "Tento dokument může být čas od času aktualizován. Pokud provedeme jakékoli změny, zveřejníme aktualizované Zásady ochrany osobních údajů v aplikaci. Pravidelně si prosím kontrolujte tyto zásady, abyste zůstali informováni o tom, jak chráníme vaše data.",
+  "privacy_policy_contact_us": "Pokud máte jakékoli dotazy ohledně těchto Zásad ochrany osobních údajů nebo způsobu, jakým nakládáme s vašimi daty, kontaktujte nás na:"
 }

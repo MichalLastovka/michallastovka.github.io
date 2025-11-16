@@ -3,7 +3,7 @@ import {Box, Button, Tooltip} from "@mui/material";
 import {ThemeSwitcher} from "./ThemeSwitcher.tsx";
 import {LanguageSwitcher} from "./LanguageSwitcher.tsx";
 import MyDrawer from "./MyDrawer.tsx";
-import {Mylogo} from "./MyLogo.tsx";
+import {MyLogo} from "./MyLogo.tsx";
 import {useTranslation} from "react-i18next";
 import { Link } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ export const TopBar = () => {
 
             <Box sx={{ml: "10px"}} flexDirection={"row"} display={"flex"} alignItems={"center"} gap={"1rem"}>
                 <MyDrawer></MyDrawer>
-                <Mylogo></Mylogo>
+                <MyLogo></MyLogo>
             </Box>
             <Box
                 sx={{
@@ -38,7 +38,7 @@ export const TopBar = () => {
                         key="menu-about"
                         variant="outlined"
                         component={Link}       // render Button as a Link
-                        to="/"
+                        to="/about"
                     >
                         {t("about")}
                     </Button>
@@ -55,6 +55,8 @@ export const TopBar = () => {
                     size={"large"}
                     key="menu-contacts"
                     variant="outlined"
+                    component={Link}       // render Button as a Link
+                    to="/contacts"
                 >
                     {t("contacts")}
                 </Button>
