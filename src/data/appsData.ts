@@ -7,7 +7,7 @@ export const appsData = [
         logo: respiratingLogo,
         privacyPolicy: "public",
         description: "respirating_description",
-        pathToImage: "../public/respirating_mockup.png",
+        pathToImage: "/respirating_mockup.png",
         whatCollect: "respirating_privacy_policy_what_collect",
         howUse: "respirating_privacy_policy_how_use",
         store: "respirating_privacy_policy_store",
