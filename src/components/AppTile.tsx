@@ -14,7 +14,7 @@ interface AppTileProps {
 export const AppTile = (props: AppTileProps) => {
     const [t] = useTranslation();
     return (
-        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", height: "220px", borderRadius: 8, }} variant="outlined" >
+        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", height: "220px", borderRadius: 8, boxSizing: "border-box" }} variant="outlined" >
             <Box display={"flex"} flexDirection={"column"} width={"100%"} height={"100%"} sx={{padding: "1rem"}} >
                 <Box width={"100%"} display={"flex"} flexDirection={"row"} gap={2}  justifyContent={"space-between"}>
                     <Box display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"}>
@@ -35,8 +35,6 @@ export const AppTile = (props: AppTileProps) => {
 
                 </Box>
             </Box>
-
-
         </Paper>
     )
 }
