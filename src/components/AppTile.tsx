@@ -14,7 +14,7 @@ interface AppTileProps {
 export const AppTile = (props: AppTileProps) => {
     const [t] = useTranslation();
     return (
-        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", height: "200px", borderRadius: 8}} elevation={5} variant="outlined">
+        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", minHeight: "200px", borderRadius: 8}} elevation={5} variant="outlined">
             <Box display={"flex"} flexDirection={"row"} gap={2} sx={{mt:"1rem", mx:"1rem"}} alignItems={"center"} justifyContent={"space-between"}>
                 <Box display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"}>
                     <CustomSVG svgRef={respiratingLogo} width={50} height={50}/>
@@ -26,7 +26,7 @@ export const AppTile = (props: AppTileProps) => {
 
             </Box>
             <Box display={"flex"} flexDirection={"row"}>
-                <Typography width={"50%"} variant={"caption"} sx={{m:"1rem"}}>{props.description}</Typography>
+                <Typography textAlign={"justify"}  width={"50%"} variant={"caption"} sx={{m:"1rem"}}>{props.description}</Typography>
                 <Divider orientation={"vertical"} flexItem></Divider>
                 <Box width={"50%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
                     <Button variant="outlined" component={Link} to={`/portfolio/${props.linkToDetail}`}>Detail</Button>

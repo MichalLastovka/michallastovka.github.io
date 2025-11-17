@@ -14,7 +14,7 @@ export const AppDetail = () => {
                 {appDetail!.appName}
             </Typography>
 
-            <Typography sx={{m:"1rem"}} variant={"caption"}>{t(appDetail!.description)}</Typography>
+            <Typography sx={{m:"1rem"}} variant={"body1"}>{t(appDetail!.description)}</Typography>
             <Box width={"100%"} maxWidth={"600px"}>
                 <img src={appDetail!.pathToImage} alt={appDetail!.appName} width="100%" height="100%"/>
             </Box>
