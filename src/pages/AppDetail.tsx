@@ -42,7 +42,7 @@ export const AppDetail = () => {
                     <img src={appDetail!.pathToImage} alt={appDetail!.appName} width="100%" height="100%"/>
                 </Grid>
 
-                <Grid size={{xs:12, sm:6}} display={"flex"} flexDirection={"column"} alignItems={"start"} gap={"1rem"}>
+                <Grid size={{xs:12, sm:6}} display={"flex"} flexDirection={"column"} alignItems={"start"} gap={"1rem"} alignSelf={"start"}>
                     <Typography id="key_features"  sx={{m:"1rem", textDecoration:"none", color:"inherit" }} alignSelf={"start"} fontWeight={"bold"} variant={"h4"}>{t("key_features")}</Typography>
                     {
                         appDetail!.keyFeatures.map((feature) => (
