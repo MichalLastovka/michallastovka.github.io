@@ -14,26 +14,28 @@ interface AppTileProps {
 export const AppTile = (props: AppTileProps) => {
     const [t] = useTranslation();
     return (
-        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", minHeight: "200px", borderRadius: 8}} elevation={5} variant="outlined">
-            <Box display={"flex"} flexDirection={"row"} gap={2} sx={{mt:"1rem", mx:"1rem"}} alignItems={"center"} justifyContent={"space-between"}>
-                <Box display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"}>
-                    <CustomSVG svgRef={respiratingLogo} width={50} height={50}/>
-                    <Typography variant={"h5"} >
-                        {props.name}
-                    </Typography>
-                </Box>
-                <CustomSVG svgRef={playLogo} width={40} height={40} tooltip={t("google_play_get")}/>
-
-            </Box>
-            <Box display={"flex"} flexDirection={"row"}>
-                <Typography textAlign={"justify"}  width={"50%"} variant={"caption"} sx={{m:"1rem"}}>{props.description}</Typography>
-                <Divider orientation={"vertical"} flexItem></Divider>
-                <Box width={"50%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
-                    <Button variant="outlined" component={Link} to={`/portfolio/${props.linkToDetail}`}>Detail</Button>
+        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", minHeight: "250px", borderRadius: 8, }} elevation={5} variant="outlined" >
+            <Box display={"flex"} flexDirection={"column"} width={"100%"} height={"100%"} sx={{padding: "1rem"}} >
+                <Box width={"100%"} display={"flex"} flexDirection={"row"} gap={2}  justifyContent={"space-between"}>
+                    <Box display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"}>
+                        <CustomSVG svgRef={respiratingLogo} width={50} height={50}/>
+                        <Typography variant={"h5"} >
+                            {props.name}
+                        </Typography>
+                    </Box>
+                    <CustomSVG svgRef={playLogo} width={40} height={40} tooltip={t("google_play_get")}/>
 
                 </Box>
+                <Box height={"100%"} display={"flex"} flexDirection={"row"} alignItems={"center"}>
+                    <Typography textAlign={"justify"}  width={"50%"} variant={"body1"} sx={{m:"1rem"}}>{props.description}</Typography>
+                    <Divider variant={"middle"} orientation={"vertical"} flexItem></Divider>
+                    <Box width={"50%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
+                        <Button variant="outlined" component={Link} to={`/portfolio/${props.linkToDetail}`}>Detail</Button>
+                    </Box>
 
+                </Box>
             </Box>
+
 
         </Paper>
     )
