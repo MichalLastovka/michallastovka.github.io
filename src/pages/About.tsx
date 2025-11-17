@@ -9,7 +9,7 @@ export const About = () => {
             <Typography sx={{mt:"1rem", mb:"2rem"}} fontSize={{xs:"1.5rem", md:"3rem"}} color="textSecondary" component="div" alignSelf={"center"}>
                 {t("about")}
             </Typography>
-            <Typography alignSelf={"center"} sx={{m:"1.5rem"}} textAlign={"justify"}>
+            <Typography alignSelf={"center"} sx={{m:"1.5rem"}} textAlign={"justify"} fontSize={{xs:"1rem", md:"1.5rem"}}>
                 {t("about_me")}
             </Typography>
         </Box>

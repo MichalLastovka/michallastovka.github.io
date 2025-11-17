@@ -20,6 +20,7 @@ export const CustomSVG = (props: CustomSVGProps) => {
                     alignItems: 'center',
                     justifyContent: 'center',
                     width: props.width,
+                    flexShrink: 0,
                     height: props.height,
                     '& svg': {
                         width: '100%',

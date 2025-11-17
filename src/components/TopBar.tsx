@@ -17,7 +17,7 @@ export const TopBar = () => {
         <Box sx={(theme) => ({
             backgroundColor: theme.palette.background.paper, justifyContent: 'space-between', display: 'flex',
             alignItems: 'center', gap: "1rem",
-        })} width={"100%"} height={"15%"} minHeight={"75px"} maxHeight={"200px"} alignSelf={"start"}
+        })} width={"100%"}  minHeight={"75px"} maxHeight={"200px"} alignSelf={"start"}
              justifySelf={"start"}>
 
             <Box sx={{ml: "10px"}} flexDirection={"row"} display={"flex"} alignItems={"center"} gap={"1rem"}>

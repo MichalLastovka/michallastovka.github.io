@@ -14,7 +14,7 @@ interface AppTileProps {
 export const AppTile = (props: AppTileProps) => {
     const [t] = useTranslation();
     return (
-        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", minHeight: "250px", borderRadius: 8, }} elevation={5} variant="outlined" >
+        <Paper sx={{width: "30%", maxWidth: "400px", minWidth: "300px", height: "220px", borderRadius: 8, }} variant="outlined" >
             <Box display={"flex"} flexDirection={"column"} width={"100%"} height={"100%"} sx={{padding: "1rem"}} >
                 <Box width={"100%"} display={"flex"} flexDirection={"row"} gap={2}  justifyContent={"space-between"}>
                     <Box display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"}>
@@ -26,10 +26,10 @@ export const AppTile = (props: AppTileProps) => {
                     <CustomSVG svgRef={playLogo} width={40} height={40} tooltip={t("google_play_get")}/>
 
                 </Box>
-                <Box height={"100%"} display={"flex"} flexDirection={"row"} alignItems={"center"}>
-                    <Typography textAlign={"justify"}  width={"50%"} variant={"body1"} sx={{m:"1rem"}}>{props.description}</Typography>
-                    <Divider variant={"middle"} orientation={"vertical"} flexItem></Divider>
-                    <Box width={"50%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
+                <Box width={"100%"} height={"100%"} display={"flex"} flexDirection={"row"} alignItems={"center"}>
+                    <Typography   width={"60%"} variant={"body1"} >{props.description}</Typography>
+                    <Divider sx={{m:"1rem"}} variant={"middle"} orientation={"vertical"} flexItem></Divider>
+                    <Box width={"40%"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
                         <Button variant="outlined" component={Link} to={`/portfolio/${props.linkToDetail}`}>Detail</Button>
                     </Box>
 

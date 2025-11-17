@@ -6,6 +6,8 @@
   "about_me": "I am an independent full-stack developer from the Czech Republic focused on developing mobile applications for Android devices and web applications in React.",
   "detail": "detail",
   "google_play_get": "Get it on Google Play",
+  "key_features": "Key features",
+
   "privacy_policy": "Privacy policy",
   "privacy_policy_what_collect": "What data do we collect",
   "privacy_policy_how_use": "How we use your data",
@@ -13,13 +15,20 @@
   "privacy_policy_sharing": "Data sharing",
   "privacy_policy_changes_title": "Changes to this Privacy Policy",
   "privacy_policy_contact_title": "Contact us",
+  "privacy_policy_changes": "This document may be updated from time to time. If we make any changes, we will post the updated Privacy Policy in the application. Please review this policy regularly to stay informed about how we protect your data.",
+  "privacy_policy_contact_us": "If you have any questions about this Privacy Policy or how we handle your data, please contact us.",
 
-  "respirating_description": "The Android mobile application allows you to monitor respiratory rate and breathing regularity for different age groups.",
+  "respirating_description_short": "The Android mobile application allows you to monitor respiratory rate and breathing regularity for different age groups.",
   "respirating_privacy_policy_what_collect": "The application does not collect any personal data, except for local preferences stored on your device.",
   "respirating_privacy_policy_how_use": "We do not use, track, or share your data in any way except as necessary for the functionality of the app.",
   "respirating_privacy_policy_store": "The data is securely stored on your device in local storage (e.g. local storage or database). This data is not sent anywhere and we do not have access to it. The application does not use any external services to collect or store data.",
   "respirating_privacy_policy_sharing": "We do not share any personal data or preferences with third parties. Your data remains only on your device and is not sent to our servers or any external services.",
+  "respirating_slogan": "„Every Breath Counts. Every Second Matters.\"",
+  "respirating_feature_fast": "An efficient algorithm ensures smooth and fast app performance.",
+  "respirating_feature_free": "Try Respirating Lite for free!",
+  "respirating_feature_design": "Carefully designed UX for effective use in high-pressure emergency situations.",
+  "respirating_feature_responsive": "Works on both small and large devices, supports both vertical and horizontal orientations.",
+  "respirating_feature_privacy": "Does not collect data, does not require system access, and protects your privacy and anonymity."
 
-  "privacy_policy_changes": "This document may be updated from time to time. If we make any changes, we will post the updated Privacy Policy in the application. Please review this policy regularly to stay informed about how we protect your data.",
-  "privacy_policy_contact_us": "If you have any questions about this Privacy Policy or how we handle your data, please contact us at:"
+
 }

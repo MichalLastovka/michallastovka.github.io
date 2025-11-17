@@ -5,7 +5,6 @@ export const MyLogo = () => {
     const theme = useTheme();
     return (
         <Box
-
             sx={{
                 alignItems: 'center',
                 justifyContent: 'center',
