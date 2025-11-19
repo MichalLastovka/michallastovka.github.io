@@ -2,7 +2,7 @@ import {Box, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 
 
-export const About = () => {
+export const Blog = () => {
     const { t } = useTranslation();
     return (
         <Box width="100%" height={"100vh"} justifyItems={"start"} justifyContent={"start"} display={"flex"} alignItems={"start"} flexDirection={"column"}>
