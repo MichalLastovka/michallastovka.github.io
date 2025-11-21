@@ -1,4 +1,4 @@
-import {designLogo, fastLogo, freeLogo, privacyLogo, respiratingLogo, responsiveLogo} from "../components/svgFiles.tsx";
+import {designLogo, fastLogo, privacyLogo, respiratingLogo, responsiveLogo} from "../components/svgFiles.tsx";
 
 
 export const appsData = [
@@ -17,10 +17,6 @@ export const appsData = [
             {
                 feature: "respirating_feature_fast",
                 icon: fastLogo
-            },
-            {
-                feature: "respirating_feature_free",
-                icon: freeLogo
             },
             {
                 feature: "respirating_feature_design",

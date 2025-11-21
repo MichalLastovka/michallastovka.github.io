@@ -10,7 +10,7 @@ export const Portolio = () => {
             <Typography sx={{mt:"1rem", mb:"2rem"}} fontSize={{xs:"1.5rem", md:"3rem"}} color="textSecondary" component="div" alignSelf={"center"}>
                 Portfolio
             </Typography>
-            <Grid container spacing={2} alignItems={"center"} justifyContent={"center"}>
+            <Grid width={"80%"} container spacing={2} alignItems={"center"} justifyContent={"center"}>
                 <AppTile name="Respirating" description={t("respirating_description_short")} linkToDetail={"respirating"} />
                 <AppTile name="Respirating" description={t("respirating_description_short")} linkToDetail={"respirating"} />
                 <AppTile name="Respirating" description={t("respirating_description_short")} linkToDetail={"respirating"} />

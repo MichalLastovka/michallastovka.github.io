@@ -26,7 +26,7 @@ export const AppDetail = () => {
     return (
         <Box overflow={"auto"}  width="100%" height={"100vh"} justifyItems={"center"} justifyContent={"start"} display={"flex"} alignItems={"center"} flexDirection={"column"}>
 
-            <Grid container width="70%" minWidth={"350px"} spacing={2} alignItems={"center"} justifyContent={"center"}>
+            <Grid container width="75%" minWidth={"350px"} spacing={2} alignItems={"center"} justifyContent={"center"}>
                 <Grid size={12} display={"flex"} flexDirection={"row"} alignItems={"center"} gap={"1rem"} justifyContent={"center"}>
                         <CustomSVG svgRef={appDetail!.logo} width={70} height={70}/>
                         <Typography sx={{mt:"1rem", mb:"2rem"}} fontSize={{xs:"1.5rem", md:"3rem"}} component="div" alignSelf={"center"}>
