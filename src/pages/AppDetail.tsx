@@ -53,19 +53,19 @@ export const AppDetail = () => {
                         ))
                     }
                 </Grid>
-                <Grid size={{xs:12, sm:6}} display={"flex"} flexDirection={"column"} alignItems={"center"} gap={"1rem"}>
+                <Grid size={{xs:12, sm:6}} display={"flex"} flexDirection={"column"} alignItems={"center"} gap={".3rem"}>
                     <Typography id="privacy_policy"  sx={{m:"1rem", textDecoration:"none", color:"inherit" }} alignSelf={"start"} fontWeight={"bold"} variant={"h4"}>{t("privacy_policy")}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_what_collect")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_what_collect")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t(appDetail!.whatCollect)}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_how_use")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_how_use")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t(appDetail!.howUse)}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_store")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_store")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t(appDetail!.store)}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_sharing")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_sharing")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t(appDetail!.sharing)}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_changes_title")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_changes_title")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t("privacy_policy_changes")}</Typography>
-                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", my:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_contact_title")}</Typography>
+                    <Typography fontWeight={"bold"}  sx={{mx:"1rem", mt:".5rem"}} alignSelf={"start"} variant={"subtitle1"}>{t("privacy_policy_contact_title")}</Typography>
                     <Typography sx={{mx:"1rem"}} alignSelf={"start"} variant={"body1"}>{t("privacy_policy_contact_us")}</Typography>
                 </Grid>
             </Grid>

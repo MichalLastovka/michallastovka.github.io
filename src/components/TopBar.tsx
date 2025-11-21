@@ -38,9 +38,9 @@ export const TopBar = () => {
                         key="menu-about"
                         variant="outlined"
                         component={Link}       // render Button as a Link
-                        to="/about"
+                        to="/blog"
                     >
-                        {t("about")}
+                        {t("blog")}
                     </Button>
                 <Button
                     size={"large"}
