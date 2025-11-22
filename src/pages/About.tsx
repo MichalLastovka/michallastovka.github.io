@@ -21,17 +21,17 @@ export const About = () => {
                         component="div" alignSelf={"center"}>Můj dev stack:</Typography>
             <Grid container spacing={4} justifyContent="center" width="80%">
                 <StackItem title="Kotlin"
-                           description="Modern, statically typed, general-purpose programming language known for its conciseness, safety features like null safety, and interoperability with Java."
-                           icon={kotlinLogo} use={"servers, Android front-end"}/>
+                           description={t("kotlin_description")}
+                           icon={kotlinLogo} use={t("kotlin_use")}/>
                 <StackItem title="React"
-                           description="Front-end JavaScript library that aims to make user interfaces based on components in single-page, mobile, or server-rendered applications."
-                           icon={reactLogo} use={"web front-end"}/>
+                           description={t("react_description")}
+                           icon={reactLogo} use={t("react_use")}/>
                 <StackItem title="Postgres"
-                           description="Relational database management system supported on all major operating systems emphasizing extensibility and SQL compliance."
-                           icon={postgresLogo} use={"back-end database"}/>
+                           description={t("postgres_description")}
+                           icon={postgresLogo} use={t("postgres_use")}/>
                 <StackItem title="Python"
-                           description="High-level, general-purpose, dynamically type-checked and garbage-collected programming language designed for readability. It supports multiple programming paradigms, including structured, object-oriented and functional programming."
-                           icon={pythonLogo} use={"back-end, server"}/>
+                           description={t("python_description")}
+                           icon={pythonLogo} use={t("python_use")}/>
 
             </Grid>
         </Box>
