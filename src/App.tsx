@@ -4,8 +4,8 @@ import {HashRouter, Route, Routes} from "react-router-dom";
 import WebLayout from "./components/WebLayout.tsx";
 import {HomePage} from "./pages/HomePage.tsx";
 import {Portolio} from "./pages/Portfolio.tsx";
-import {Blog} from "./pages/Blog.tsx";
-import {Contacts} from "./pages/Contacts.tsx"
+import {About} from "./pages/About.tsx";
+import {Blog} from "./pages/Blog.tsx"
 import {AppDetail} from "./pages/AppDetail.tsx";
 import {useEffect} from "react";
 
@@ -30,10 +30,10 @@ function App() {
                             <Route path={"portfolio/:appName"} element={<AppDetail/>}></Route>
                         </Route>
                         <Route element={< WebLayout/>}>
-                            <Route path={"about"} element={<Blog/>}></Route>
+                            <Route path={"about"} element={<About/>}></Route>
                         </Route>
                         <Route element={< WebLayout/>}>
-                            <Route path={"blog"} element={<Contacts/>}></Route>
+                            <Route path={"blog"} element={<Blog/>}></Route>
                         </Route>
                     </Routes>
                 </HashRouter>

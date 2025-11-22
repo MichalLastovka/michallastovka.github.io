@@ -5,19 +5,18 @@ import {LanguageSwitcher} from "./LanguageSwitcher.tsx";
 import MyDrawer from "./MyDrawer.tsx";
 import {MyLogo} from "./MyLogo.tsx";
 import {useTranslation} from "react-i18next";
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom';
 
 
 export const TopBar = () => {
     const {mode, toggleTheme} = useAppTheme()
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <Box sx={(theme) => ({
             backgroundColor: theme.palette.background.paper, justifyContent: 'space-between', display: 'flex',
             alignItems: 'center', gap: "1rem",
-        })} width={"100%"}  minHeight={"75px"} maxHeight={"200px"} alignSelf={"start"}
+        })} width={"100%"} minHeight={"75px"} maxHeight={"200px"} alignSelf={"start"}
              justifySelf={"start"}>
 
             <Box sx={{ml: "10px"}} flexDirection={"row"} display={"flex"} alignItems={"center"} gap={"1rem"}>
@@ -33,15 +32,15 @@ export const TopBar = () => {
                     gap: 2, // optional: spacing between buttons
                 }}
             >
-                    <Button
-                        size={"large"}
-                        key="menu-about"
-                        variant="outlined"
-                        component={Link}       // render Button as a Link
-                        to="/blog"
-                    >
-                        {t("blog")}
-                    </Button>
+                <Button
+                    size={"large"}
+                    key="menu-contacts"
+                    variant="outlined"
+                    component={Link}       // render Button as a Link
+                    to="/about"
+                >
+                    {t("about")}
+                </Button>
                 <Button
                     size={"large"}
                     key="menu-portfolio"
@@ -53,12 +52,12 @@ export const TopBar = () => {
                 </Button>
                 <Button
                     size={"large"}
-                    key="menu-contacts"
+                    key="menu-about"
                     variant="outlined"
                     component={Link}       // render Button as a Link
-                    to="/contacts"
+                    to="/blog"
                 >
-                    {t("contacts")}
+                    {t("blog")}
                 </Button>
             </Box>
 

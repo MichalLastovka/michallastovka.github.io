@@ -4,6 +4,7 @@ import {type JSX} from "react";
 interface StackItemProps {
     title: string;  // 'name' is required and should be of type string
     description: string;
+    use: string;
     icon: JSX.Element;
 }
 
@@ -45,6 +46,8 @@ export const StackItem = (props: StackItemProps) => {
   width: 100%;
   height: 100%;
   padding: 20px;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   background-color: #f2f2f2;
   transform: rotateX(-90deg);
@@ -57,8 +60,22 @@ export const StackItem = (props: StackItemProps) => {
 }
 
 .Itemcard__title {
-  margin: 0;
-  font-size: 24px;
+  margin: 10px;
+  font-size: 30px;
+  color: #333;
+  font-weight: 700;
+}
+
+.Itemcard__use {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 200;
+}
+
+.Itemcard__usespan {
+  margin: 10px 0 0;
+  font-size: 14px;
   color: #333;
   font-weight: 700;
 }
@@ -79,9 +96,10 @@ export const StackItem = (props: StackItemProps) => {
             </style>
             <div className="Itemcard">
                 {props.icon}
+                <p className="Itemcard__title">{props.title}</p>
                 <div className="Itemcard__content">
-                    <p className="Itemcard__title">{props.title}</p>
                     <p className="Itemcard__description">{props.description}</p>
+                    <p className="Itemcard__use"><span className={"Itemcard__usespan"}>Use: </span>{props.use}</p>
                 </div>
             </div>
         </>
